@@ -1,0 +1,23 @@
+.about_header{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    .header_image{
+        width: 50.0%;
+        padding-left: 15px;
+        padding-right: 15px;
+        min-height: 1px;
+        img{
+            width: 500px;
+            // max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+            border: 0;
+            object-fit:fill;
+            border-radius: 10px;
+
+        }
+    }
+}

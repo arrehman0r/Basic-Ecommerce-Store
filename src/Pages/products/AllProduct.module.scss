@@ -1,0 +1,116 @@
+.container {
+    margin-top: 55px;
+    height: 40vh;
+    background: #ebebeb;
+    box-shadow: 0 0 6px #0000001f;
+    margin-bottom: 50px;
+    padding: 0;
+
+    // text-align: center;
+    .heading {
+        display: inline-block;
+        width: 100%;
+        padding: 86px 0px 78px 0px;
+        background: none;
+        margin: 0;
+        line-height: normal;
+
+        h2 {
+            letter-spacing: 0.25px;
+            margin-bottom: 0;
+            font-size: 34px;
+            line-height: 56px;
+            text-transform: uppercase;
+            font-weight: bold;
+            float: left;
+        }
+
+        .pageName {
+            float: right;
+            line-height: 56px;
+
+            p {
+                color: #555;
+                letter-spacing: 0.5px;
+                text-transform: capitalize !important;
+            }
+        }
+    }
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    h6{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        line-height: 1;
+    }
+    .btn{
+        background-color: #444;
+        border: none;
+        color: #fff;
+        border-radius: 6px;
+        padding: 6px 10px;
+        margin:0 10px;
+    }
+}
+// .card {
+//     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+//     text-align: center;
+//     display: flex;
+//     flex-direction: column;
+//     width: 100%;
+//     padding: 0;
+//     position: relative;
+//     &:hover {
+//         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+//     }
+
+//     .card_image {
+//         margin-bottom: 0.8em;
+//         position: relative;
+
+//         img {
+//             width: 100%;
+//             margin-bottom: 0;
+//         }
+
+//         .quick_btn {
+//             border: none;
+//             width: 100%;
+//             // border-radius: 8px;
+//             color: white;
+//             background-color: black;
+//             padding: 10px 40px;
+//         }
+//     }
+//     .card_text {
+//         padding: 0 1.2em;
+    
+//         .span_text {
+//             font-size: 1em;
+//             margin-bottom: 0.5em;
+//             display: block;
+//             line-height: 1.3;
+//             opacity: .6;
+//         }
+    
+//         .card_title {
+//             margin-bottom: 0.5em;
+//             padding: 0;
+//             font-size: 1em;
+//             font-weight: bold;
+//             line-height: 1.15em;
+//             text-transform: uppercase;
+//         }
+    
+//         .price {
+//             line-height: 1.3;
+//             font-weight: 700;
+//             margin-bottom: 0.5em;
+//             font-size: .9em;
+//             color: #67727d;
+//         }
+//     }
+// }

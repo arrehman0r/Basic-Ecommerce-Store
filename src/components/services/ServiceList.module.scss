@@ -1,0 +1,77 @@
+.section {
+    padding: 100px 0;
+
+    .container {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        max-width: 1340px;
+
+        .services_section {
+            position: relative;
+            min-height: 1px;
+            display: flex;
+            width: 100%;
+
+            .services {
+                position: relative;
+                width: 100%;
+                flex-wrap: wrap;
+                align-content: flex-start;
+
+                .text_top {
+                    margin-bottom: 10px;
+
+                    .services_text_top {
+                        color: #00000061;
+                        letter-spacing: 2px;
+                        font-size: 0.8rem;
+                        line-height: 1.25em;
+                        text-align: center;
+                        font-weight: 400;
+                        font-family: 'Oswald', sans-serif;
+
+                    }
+                }
+
+                .services_main_title {
+                    margin-bottom: 10px;
+
+                    h2 {
+
+                        font-size: 3rem;
+                        font-weight: 700;
+                        font-family: 'Courier New', Courier, monospace;
+                        text-align: center;
+                    }
+                }
+
+                .services_line {
+                    text-align: center;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    display: flex;
+
+                    .line {
+                        width: 50px;
+                        margin: 0 auto;
+                        border: 1px solid #c19a83;
+                    }
+                }
+
+                .services_card_section {
+                    padding: 25px 0 0;
+
+                    .card_section {
+                        display: flex;
+                        margin-right: auto;
+                        margin-left: auto;
+                        position: relative;
+                    }
+                }
+            }
+        }
+    }
+
+}

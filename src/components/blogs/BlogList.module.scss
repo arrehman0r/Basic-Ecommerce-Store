@@ -1,0 +1,37 @@
+@import "../../global.scss";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    color: $limedSpruce;
+    background-color: #fcfcfc;
+    // color: #fff;
+    h2{
+        margin: 0;
+        font-weight: 700;
+        font-size: 2.1rem;
+        line-height: 1.7;
+    }
+    p{
+        margin: 0;
+        line-height: 1.7;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .blog_list{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+        margin-top: 25px;
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+    }
+}

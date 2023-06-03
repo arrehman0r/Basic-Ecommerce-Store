@@ -1,0 +1,28 @@
+.services_container{
+    margin-top: 40px;
+   
+    .text_heading{
+        margin-bottom: 2rem;
+        text-align: center;
+        h2{
+            font-size: 40px;
+            font-weight: bolder;
+            letter-spacing: .05rem;
+            margin: unset;
+            font-family:'Courier New', Courier, monospace;
+         }
+         
+        }
+    .services_section{
+        .services_cards{
+            margin: 0 -15px;
+            min-height: 1px;
+            display: flex;
+            row-gap: 20px;
+            flex-wrap: wrap;
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+    }
+}

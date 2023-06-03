@@ -1,0 +1,31 @@
+.container{
+display: flex;
+gap: 10px;
+// flex-wrap: wrap;
+
+    .discount{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color:#fff;
+        .discount_text{
+            margin: 0px;
+            // padding: 8px;
+            h2{
+                font-size: 28px;
+                span{
+                    font-size: 18px;
+                }
+            }
+        }
+        .discount_img{
+            img{
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+}

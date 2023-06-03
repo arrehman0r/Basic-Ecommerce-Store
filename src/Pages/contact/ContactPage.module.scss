@@ -1,0 +1,93 @@
+.container {
+    margin-top: 6rem;
+    display: flex;
+    gap: 30px;
+
+    .form_section {
+        h4 {
+            margin-bottom: 1rem;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: .05rem;
+            font-size: 20px;
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 40px;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        p {
+            margin-bottom: 3rem;
+            font-size: 1rem;
+            line-height: 0.3;
+            color: #444;
+        }
+
+        .contact_form {
+            .form_fields {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                .field_input {
+                    width: 100%;
+                    max-width: calc((100% - 3rem)/2);
+                    margin-bottom: 2rem;
+
+                    input {
+                        height: 3.5rem;
+                        width: 100%;
+                        box-shadow: none;
+                        border: 1px solid #e0e0e0;
+                        padding-left: 2rem;
+                        font-size: 1rem;
+                        border-radius: 8px;
+                        max-width: 100%;
+                        padding: 1rem;
+                    }
+                }
+
+                .field_text_area {
+                    margin-bottom: 3rem;
+                    max-width: 100%;
+                    width: 100%;
+
+                    textarea {
+                        height: 10rem;
+                        width: 100%;
+                        box-shadow: none;
+                        border: 1px solid #e0e0e0;
+                        padding-left: 2rem;
+                        font-size: 1rem;
+                        border-radius: 8px;
+                        padding: 1rem;
+                    }
+                }
+            }
+
+            .button {
+                .btn {
+                    border-radius: 8px;
+                    padding: 1rem 4rem;
+                    font-size: 1rem;
+                    background-color: rgb(37, 61, 78);
+                    border: none;
+                    font-weight: 700;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .form_img{
+        padding-left: 5rem;
+        img{
+            margin-top: 5rem;
+            border-radius: 15px;
+            width: 300px;
+            height: 380px;
+        }
+    }
+}

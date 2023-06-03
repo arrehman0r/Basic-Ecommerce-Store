@@ -1,0 +1,45 @@
+.card_col{
+    width: 25%;
+    .card{
+        display: flex;
+        position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    .card_wrapper{
+        display: block;
+        text-align: center;
+        .card_icon{
+          margin-bottom: 10px;
+            margin-right: auto;
+            margin-left: auto;
+            .icon{
+                fill: #c19a83;
+                color: #c19a83;
+                border-color: #c19a83;
+                font-size: 30px;
+            }
+        }
+        .card_text{
+            h4{
+                margin-bottom: 10px;
+                font-size: 1.4666666666667rem;
+                line-height: 1.2em;
+                font-weight: 400;
+                font-family: 'Oswald',sans-serif;
+                text-transform: none;
+            }
+            p{
+                color: #54595F;
+                border: 0;
+                font-size: 100%;
+                font-style: inherit;
+                font-weight: inherit;
+                outline: 0;
+                padding: 0;
+                vertical-align: baseline;
+            }
+        }
+    }
+    }
+}
