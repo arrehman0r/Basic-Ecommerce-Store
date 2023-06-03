@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./AllProduct.module.scss";
 import { Link } from 'react-router-dom';
-import {featuredData} from "../../data/index";
+import {productsList} from "../../data/index";
 import Filter from '../../commonComponent/Filter/Filter';
 const AllProducts = () => {
   return (
@@ -25,7 +25,7 @@ const AllProducts = () => {
        <Filter/>
        <div className="col-md-9 col-sm-12 col-xs-12 col-main">
          <div className='row'>
-       {featuredData.map((data)=>{
+       {productsList.map((data)=>{
            return  (
               <div className='col-lg-4 col-md-6 col-sm-6 col-xs-12'>
               <div className={styles.card}>
