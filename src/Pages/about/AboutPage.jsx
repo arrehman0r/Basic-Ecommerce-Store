@@ -24,7 +24,7 @@ const AboutPage = () => {
             Duis aute irure dolor in reprehenderit in voluptate id est laborum.</p>
         </div>
       </div>
-    <AboutServices/>
+    <AboutServices />
     </div>
   )
 }

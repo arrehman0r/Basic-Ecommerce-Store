@@ -4,8 +4,11 @@ import styles from "./DetailPage.module.scss";
 import img from "./tshirt.png";
 import { productsList } from "../../data";
 import { CONSTANTS } from "../../constants";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../../reducers/cart";
 
 const DetailPage = () => {
+  const dispatch = useDispatch();
   const [count, setCount] = useState(1);
   const [product, setProduct] = useState({});
 
@@ -29,6 +32,11 @@ const DetailPage = () => {
   const handleDecrement = () => {
     setCount(count - 1);
   };
+
+  const handleCartClick = () => {
+    dispatch(addToCart({ id: Number(params.id), quantity: count }));
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.img_block}>
@@ -64,7 +72,10 @@ const DetailPage = () => {
           </button>
         </div>
         <div className="text-center d-block mb-3 pb-3">
-          <button className={styles.btn}>Add To Cart</button>
+          <button className={styles.btn} onClick={handleCartClick}>
+            Add To Cart
+          </button>
+          <span className="px-3"></span>
           <Link to="/cart">
             <button className={styles.btn}>Go To Cart</button>
           </Link>
